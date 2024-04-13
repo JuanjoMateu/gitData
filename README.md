@@ -21,7 +21,7 @@ Asegurate de que están todas las que vas a necesitar
 ## Instrucciones
 
 Vamos a traernos los datos de un usuario de github. Puedes probar con el tuyo o generar un input para ir probando directamente desde la API. 
-la URL de la API de github es la siguiente: `https://api.github.com/users/` si añadimos justo después el nombre de usuario accederemos a sus datos. Podéis comproibarlo en con esta URL https://api.github.com/users/carlosdiazgirol
+la URL de la API de github es la siguiente: `https://api.github.com/users/` si añadimos justo después el nombre de usuario accederemos a sus datos. Podéis comprobarlo en con esta URL https://api.github.com/users/carlosdiazgirol
 
 
 Los datos serán:
@@ -31,7 +31,7 @@ Los datos serán:
 - Repositorios públicos
 - Imagen
 
-Para manejar el estado globar usaremos REDUX y ahí es donde guardaremos los datos del usuario que nos traigamos.
+Para manejar el estado global usaremos REDUX y ahí es donde guardaremos los datos del usuario que nos traigamos.
 
 Para hacer las pruebas podéis pasar desde main.jsx el usuario por propiedades:
 ```js
